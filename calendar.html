@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seelah Elektro | Calendar</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .calendar-container {
+            margin: 2rem auto;
+            overflow-x: auto;
+            background: #181818;
+            border-radius: 12px;
+            padding: 1rem;
+            box-shadow: 0 4px 32px 0 rgba(0,0,0,0.15);
+            width: calc(800px + 2rem);
+            height: calc(600px + 2rem);
+        }
+        @media (max-width: 900px) {
+            .calendar-container iframe {
+                width: 800px;
+                height: 600px;
+            }
+        }
+        @media (max-width: 600px) {
+            .calendar-container iframe {
+                width: 800px;
+                height: 600px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3 class="section-title">Seelah Elektro Calendar</h1>
+        <div class="calendar-container">
+            <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=2&ctz=Asia%2FAlmaty&title=%D0%A0%D0%B5%D0%BF%D1%82%D0%BE%D1%87%D0%BA%D0%B0&showCalendars=0&mode=WEEK&src=MGRjYTY2MTA2NDQzNTQ3ZTY4ZDRlMjNkNmE5NGQ0YzNiYzM5ZjE4ZTU2ZTY0ZmIzYTgwZWU3MmY2ZTg0ZjE2MUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23d50000" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        </div>
+    </div>
+</body>
+</html> 
